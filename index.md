@@ -11,3 +11,6 @@ Gun crime is a major topic in modern America. In 2023, nearly 47.000 people in t
 The dataset on which this analysis is built is the historic NYPD Shooting Incident Dataset which is available on the NYC OpenData portal. The dataset can be found [here](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8/about_data). It contains details of every shooting incident in NYC in the time period 2006-2023. It has approximately 29000 observations each containing interesting features such as date, time and location of the shooting as well as age group, race and sex of both the perpetrator and the victim. 
 
 * * *
+
+## An overview of shooting incident data in NYC
+bla bla bla

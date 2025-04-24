@@ -12,7 +12,6 @@ Gun crime is a major topic in modern America. In 2023, nearly 47.000 people in t
 The dataset on which this analysis is built is the historic NYPD Shooting Incident Dataset which is available on the NYC OpenData portal. The dataset can be found [here](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8/about_data). It contains details of every shooting incident in NYC in the time period 2006-2023. It has approximately 29000 observations each containing interesting features such as date, time and location of the shooting as well as age group, race and sex of both the perpetrator and the victim. 
 
 * * *
-* * *
 
 ## An overview of shooting incident data in NYC
 To get a general overview of the number of shooting incidents in NYC, let us visualize how the number of shootings has changed with the years. In figure 1 we see the yearly number of shootings in all of NYC throughout the whole time period. The number of occurences appears relatively stable in the late 2010s followed by a period of significant drop in occurences until the large spike in 2020/2021. In 2022 and 2023 the number of occurences start dropping rapidly again. It is difficult to qualify what caused the prolonged drop in shooting incidents up until 2020, but it is not a phenomenon isolated to NYC. According to a report [[3]](https://bjs.ojp.gov/library/publications/trends-and-patterns-firearm-violence-1993-2018) by BJS, the rate of firearm violence declined significantly in the time period 1993-2018.

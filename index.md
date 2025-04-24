@@ -21,6 +21,8 @@ The surge of gun violence in 2020 can likely be attributed to a few factors. Fir
 ![Fig1](assets/images/shootings_by_year.png)
 > Figure 1: bla bla.........
 
-bla bla
+
+bla bla...
+
 ![Tab1](assets/images/vic_perp_ratios.png)
 > Table 1: bla bla.........

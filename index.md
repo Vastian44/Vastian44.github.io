@@ -23,8 +23,14 @@ The surge of gun violence in 2020 can likely be attributed to a few factors. Fir
 
 Let us take a look at the distribution of shootings across the city. Figure 2 displays an interactive map of NYC in which shooting incidents have been grouped into clusters. It becomes clear that certain parts of NYC are more heavily impacted. Many of the larger clusters are centered around the boroughs Brooklyn and Bronx. In Brooklyn, shooting incidents seem especially prevelant around the Flatbush and Brownsville (East New York) neighbourhoods. In Bronx, areas near Melrose and Tremont are severely impacted. Unsurprisingly, these neighbourhoods are all among the lowest household-income neighbourhoods in NYC [[5]](https://a816-dohbesp.nyc.gov/IndicatorPublic/data-explorer/economic-conditions/?id=103#display=summary).
 
-
-
+<html>
+<head>
+</head>
+<body>
+    <iframe src="cluster_map.html" width="1000" height="510"></iframe>
+    </body>
+</html>
+> Figure 2: bla bla..........
 
 
 ![Tab1](assets/images/vic_perp_ratios.png)

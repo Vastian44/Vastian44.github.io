@@ -39,7 +39,7 @@ We now visualize the number of shootings by month for each borough. The plot on 
 <head>
 </head>
 <body>
-    <iframe src="bokeh_shootings_by_month.html" width="1000" height="510"></iframe>
+    <iframe src="bokeh_shootings_by_month.html" width="800" height="510"></iframe>
     </body>
 </html>
 > Figure 3: bla bla..........

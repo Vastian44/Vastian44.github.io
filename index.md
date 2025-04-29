@@ -33,5 +33,18 @@ Let us take a look at the distribution of shootings across the city. Figure 2 di
 > Figure 2: bla bla..........
 
 
+
+We now visualize the number of shootings by month for each borough. The plot on figure 3 is interactive and and allows for selection of the borough(s) for which the distribution across the year should be displayed. The general trend is that the summer months are the peak of shooting incidents across for all the five boroughs. This stems with numerous studies (e.g. [[Esfandi]](https://esfandilawfirm.com/do-seasons-weather-affect-crime-trends/#:~:text=According%20to%20the%20U.S.%20Bureau,as%20the%20weather%20gets%20hotter.)) that conclude that violent crime, in general, seems to peak during the summer.
+<html>
+<head>
+</head>
+<body>
+    <iframe src="bokeh_shootings_by_month.html" width="1000" height="510"></iframe>
+    </body>
+</html>
+> Figure 3: bla bla..........
+
+
+
 ![Tab1](assets/images/vic_perp_ratios.png)
 > Table 1: bla bla.........

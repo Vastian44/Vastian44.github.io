@@ -27,7 +27,7 @@ Let us take a look at the distribution of shootings across the city. Figure 2 di
 <head>
 </head>
 <body>
-    <iframe src="cluster_map.html" width="1000" height="510"></iframe>
+    <iframe src="cluster_map.html" width="800" height="510"></iframe>
     </body>
 </html>
 > Figure 2: bla bla..........

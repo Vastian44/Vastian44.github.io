@@ -57,4 +57,4 @@ The plot in figure 4 opens up an interesting question of the relations between t
 
 
 ![Tab1](assets/images/vic_perp_ratios.png)
-> Table 1
+> Table 1: Victim/perpetrator ratios across sexes.

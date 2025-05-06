@@ -45,6 +45,14 @@ We now visualize the number of shootings by month for each borough. The plot on 
 > Figure 3: bla bla..........
 
 
+So we know that shootings in NYC tend to concentrate around certain neighbourhoods as well as certain months of the year. In order to better characterize the shooters and shooting victims, We display the victim and perpetrator counts for both sexes on figure 4. For this visualization we use only observations of the dataset for which both the age group and the sex of the perpetrator is reported. One should always be careful when ignoring significant parts of the dataset for the purpose of comparison between categories. Doing this, one can potentially introduce unintended bias into the illustration and thus also the analysis. An example could be if e.g. females in the 45-64 age group were heavily over represented among perpetrators that were never caught. For this analysis we choose to make the assumption that all shooting perpetrators are equally likely to be caught/seen (and thus have their demographics reported) regardless of age and sex. Assuming this to be true, we avoid the aforementioned bias.
+
+It should also be noted that the age group intervals for this dataset, unfortunately, are quite broad and not of equal length. As such, we should keep this in mind when comparing the different groups. From the plot a few things become clear. Males are heavily over represented among both shooting victims and shooting perpetrators. Females are much less likely to be victims of a shooting, and even less likely to be the perpetrators. Additionally, males in the age group 18-24 are over represented compared to the much broader age category 25-44. This points towards an issue with gang culture, which is predominantly associated with young males. 
+
+![Fig1](assets/images/victim_perpetrator_by_sex.png)
+> Figure 4: bla bla.........
+
+
 
 ![Tab1](assets/images/vic_perp_ratios.png)
 > Table 1: bla bla.........

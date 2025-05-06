@@ -19,7 +19,7 @@ To get a general overview of the number of shooting incidents in NYC, let us vis
 The surge of gun violence in 2020 can likely be attributed to a few factors. Firstly, the New York police department (NYPD) saw its resources stretched thin in 2020 due to the outbreak of the Covid-19 pandemic. Additionally, massive protests following the murder of George Floyd further weakened ability of the NYPD to be present in and around the city [[4]](https://www.nyc.gov/site/nypd/news/p0106a/overall-crime-new-york-city-reaches-record-low-2020).
 
 ![Fig1](assets/images/shootings_by_year.png)
-> Figure 1: bla bla.........
+> Figure 1: Yearly shooting incidents in NYC.
 
 Let us take a look at the distribution of shootings across the city. Figure 2 displays an interactive map of NYC in which shooting incidents have been grouped into clusters. Additionally, each borough of the city has been colored according to the total number of shootings in the whole time period. Clicking on an empty area will display the name of the borough. Clicking a specific cluster will further zoom in on the cluster. It becomes clear that certain parts of NYC are more heavily impacted. Many of the larger clusters are centered around the boroughs Brooklyn and Bronx. In Brooklyn, shooting incidents seem especially prevelant around the Flatbush and Brownsville (East New York) neighbourhoods. In Bronx, areas near Melrose and Tremont are severely impacted. Unsurprisingly, these neighbourhoods are all among the lowest household-income neighbourhoods in NYC [[5]](https://a816-dohbesp.nyc.gov/IndicatorPublic/data-explorer/economic-conditions/?id=103#display=summary).
 
@@ -30,7 +30,7 @@ Let us take a look at the distribution of shootings across the city. Figure 2 di
     <iframe src="cluster_map2.html" width="800" height="510"></iframe>
     </body>
 </html>
-> Figure 2: bla bla..........
+> Figure 2: Distribution of shooting incidents across NYC.
 
 
 
@@ -42,7 +42,7 @@ We now visualize the number of shootings by month for each borough. The plot on 
     <iframe src="bokeh_shootings_by_month2.html" width="800" height="510"></iframe>
     </body>
 </html>
-> Figure 3: bla bla..........
+> Figure 3: Distribution of shooting incidents across boroughs by month.
 
 
 So we know that shootings in NYC tend to concentrate around certain neighbourhoods as well as certain months of the year. In order to better characterize the shooters and shooting victims, We display the victim and perpetrator counts for both sexes on figure 4. For this visualization we use only observations of the dataset for which both the age group and the sex of the perpetrator is reported. One should always be careful when ignoring significant parts of the dataset for the purpose of comparison between categories. Doing this, one can potentially introduce unintended bias into the illustration and thus also the analysis. An example could be if e.g. females in the 45-64 age group were heavily over represented among perpetrators that were never caught. For this analysis we choose to make the assumption that all shooting perpetrators are equally likely to be caught/seen (and thus have their demographics reported) regardless of age and sex. Assuming this to be true, we avoid the aforementioned bias.
@@ -50,10 +50,10 @@ So we know that shootings in NYC tend to concentrate around certain neighbourhoo
 It should also be noted that the age group intervals for this dataset, unfortunately, are quite broad and not of equal length. As such, we should keep this in mind when comparing the different groups. From the plot a few things become clear. Males are heavily over represented among both shooting victims and shooting perpetrators. Females are much less likely to be victims of a shooting, and even less likely to be the perpetrators. Additionally, males in the age group 18-24 are over represented compared to the much broader age category 25-44. This points towards an issue with gang culture, which is predominantly associated with young males. 
 
 ![Fig1](assets/images/victim_perpetrator_by_sex.png)
-> Figure 4: bla bla.........
+> Figure 4: Victim and perpetrator statistics across sex and age group.
 
 The plot in figure 4 opens up an interesting question of the relations between the sexes of perpetrators and victims. As we already know, males are much more likely to be both victims and perpetrators. From the statistics in Table 1 however, we learn something interesting. If we take a look at the two most extreme statistical differences between the sexes, we see that in the case where the perpetrator is female, the victim is about 4 times as likely to be male as they are to be female. I.e. it is not that rare (relatively) for females to shoot other females. On the other hand, if the victim is male, there is only a 1/53 probability that the perpetrator is female. Overall, the key takeaway here is that even though both males and females are most likely to be involved in shootings with males, females are much more likely to be involved in shootings with females, than males are to be involved in shootings with females.
 
 
 ![Tab1](assets/images/vic_perp_ratios.png)
-> Table 1: bla bla.........
+> Table 1

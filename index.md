@@ -52,6 +52,7 @@ It should also be noted that the age group intervals for this dataset, unfortuna
 ![Fig1](assets/images/victim_perpetrator_by_sex.png)
 > Figure 4: bla bla.........
 
+The plot in figure 4 opens up an interesting question of the relations between the sexes of perpetrators and victims. As we already know, males are much more likely to be both victims and perpetrators. From the statistics in Table 1 however, we learn something interesting. If we take a look at the two most extreme statistical differences between the sexes, we see that in the case where the perpetrator is female, the victim is about 4 times as likely to be male as they are to be female. I.e. it is not that rare (relatively) for females to shoot other females. On the other hand, if the victim is male, there is only a 1/53 probability that the perpetrator is female. Overall, the key takeaway here is that even though both males and females are most likely to be involved in shootings with males, females are much more likely to be involved in shootings with females, than males are to be involved in shootings with females.
 
 
 ![Tab1](assets/images/vic_perp_ratios.png)

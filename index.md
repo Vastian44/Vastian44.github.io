@@ -50,7 +50,7 @@ So we know that shootings in NYC tend to concentrate around certain neighbourhoo
 
 It should also be noted that the age group intervals for this dataset, unfortunately, are quite broad and not of equal length. As such, we should keep this in mind when comparing the different groups. From the plot a few things become clear. Males are heavily over represented among both shooting victims and shooting perpetrators. Females are much less likely to be victims of a shooting, and even less likely to be the perpetrators. Additionally, males in the age group 18-24 are over represented compared to the much broader age category 25-44. This points towards an issue with gang culture, which is predominantly associated with young males. 
 
-![Fig1](assets/images/victim_perpetrator_by_sex.png)
+![Fig4](assets/images/victim_perpetrator_by_sex.png)
 > Figure 4: Victim and perpetrator statistics across sex and age group.
 
 The plot in figure 4 opens up an interesting question of the relations between the sexes of perpetrators and victims. As we already know, males are much more likely to be both victims and perpetrators. From the statistics in Table 1 however, we learn something interesting. If we take a look at the two most extreme statistical differences between the sexes, we see that in the case where the perpetrator is female, the victim is about 4 times as likely to be male as they are to be female. I.e. it is not that rare (relatively) for females to shoot other females. On the other hand, if the victim is male, there is only a 1/53 probability that the perpetrator is female. Overall, the key takeaway here is that even though both males and females are most likely to be involved in shootings with males, females are much more likely to be involved in shootings with females, than males are to be involved in shootings with females.
@@ -58,3 +58,18 @@ The plot in figure 4 opens up an interesting question of the relations between t
 
 ![Tab1](assets/images/vic_perp_ratios.png)
 > Table 1: Victim/perpetrator ratios across sexes.
+
+
+Another interesting point to investigate based on figure 4 is the relation between age groups of victims and perpetrators. On figure 5 we have a heatmap of the different pairs of victim/perpetrator age groups. Each square is colored according to the number of shootings for that given pair. The heatmap has a somewhat diagonal structure, suggesting that people are more likely to shoot people within their own age group, or at least close to it.
+
+![Fig5](assets/images/victim_perp_age_groups.png)
+> Figure 5: bla bla
+
+
+One interesting statistic we have not yet discussed is the lethality of shootings and how it changes with different variables. On figure 6 we visualize a heatmap of the lethality ratios (percentage of shootings that are lethal to the victim) of the different pairs of victim age group and victim race. It should be noted that there are a very limited number of shooting incidents for some races, which results in e.g. there being no *lethal* shooting incidents for persons of "american indian/alaskan native" origin. We see that in general, the lethality of shootings tend to increase with the age of the victims. A likely reason for this is that the human body simply is less likely to survive a gunshot the older it gets. Another reason might also be that the level of violence of the type of shootings which older age groups tend to be involved in, is higher. Additionally we see that although black people are more likely to be involved in shootings, the shootings that white people are involved in tend to be more lethal.
+
+
+![Fig6](assets/images/Lethal_ratio_heatmap.png)
+> Figure 6: bla bla
+
+
